@@ -11,7 +11,7 @@
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <easyb.version>1.4</easyb.version>
-        <cobertura.version>2.6</cobertura.version>
+        <cobertura.version>2.7</cobertura.version>
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.7</sourceJdk>
         <targetJdk>1.7</targetJdk>
@@ -79,7 +79,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.7.2.201409121644</version>
+                <version>0.7.5.201505241946</version>
                 <executions>
                     <execution>
                         <id>jacoco-initialize</id>
@@ -427,7 +427,7 @@
                         <version>${cobertura.version}</version>
                         <configuration>
                             <formats>
-<!--                                <format>html</format> -->
+                                <format>html</format> 
                                 <format>xml</format>
                             </formats>
                         </configuration>
