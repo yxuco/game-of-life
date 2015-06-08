@@ -426,10 +426,13 @@
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>${cobertura.version}</version>
                         <configuration>
+                            <format>xml</format>
+<!--
                             <formats>
                                 <format>html</format> 
                                 <format>xml</format>
                             </formats>
+-->
                         </configuration>
                     </plugin>
                     <plugin>
