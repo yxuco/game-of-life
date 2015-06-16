@@ -1,0 +1,14 @@
+
+apply plugin: 'war'
+
+description = 'gameoflife-web'
+dependencies {
+  compile project(':gameoflife-core')
+    compile group: 'org.springframework', name: 'spring-webmvc', version:'3.0.2.RELEASE'
+    compile group: 'org.springframework', name: 'spring-core', version:'3.0.2.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version:'3.0.2.RELEASE'
+    compile group: 'javax.servlet', name: 'jstl', version:'1.2'
+    compile group: 'org.easytesting', name: 'fest-assert', version:'1.4'
+    compile group: 'org.slf4j', name: 'slf4j-api', version:'1.6.1'
+    providedCompile group: 'javax.servlet', name: 'servlet-api', version:'2.5'
+}

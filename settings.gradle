@@ -1,0 +1,8 @@
+rootProject.name = 'gameoflife'
+include ':gameoflife-build'
+include ':gameoflife-core'
+include ':gameoflife-web'
+
+project(':gameoflife-build').projectDir = "$rootDir/gameoflife-build" as File
+project(':gameoflife-core').projectDir = "$rootDir/gameoflife-core" as File
+project(':gameoflife-web').projectDir = "$rootDir/gameoflife-web" as File
