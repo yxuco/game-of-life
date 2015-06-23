@@ -1,5 +1,5 @@
 ## Notes by Yueming
-I forked it to learn about Jenkins, and try out [Gradle](https://gradle.org/) and [Spock](https://code.google.com/p/spock/).  These 2 packages from the [Groovy ecosystem](http://www.groovy-lang.org/ecosystem.html) are interesting alternative to the currently popular CI toolset with [Maven](https://maven.apache.org/), [JUnit](http://junit.org/) and [Mockito](http://mockito.org/) for Java development.
+I forked it to learn about [Jenkins](https://jenkins-ci.org/), and try out [Gradle](https://gradle.org/) and [Spock](https://code.google.com/p/spock/).  These 2 packages from the [Groovy ecosystem](http://www.groovy-lang.org/ecosystem.html) are interesting alternatives to the currently popular CI toolset with [Maven](https://maven.apache.org/), [JUnit](http://junit.org/) and [Mockito](http://mockito.org/) for Java development.  It may be an interesting CI toolset using Jenkins, Gradle, and Spock, even if the main development is not on Grail or Groovy in general.
 
 This is a simple demonstration application used in the [Jenkins: The Definitive Guide](http://wakaleo.com/books/jenkins-the-definitive-guide) book.
 
